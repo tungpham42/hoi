@@ -1,0 +1,59 @@
+/* Import font Plus Jakarta Sans từ Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  background-color: #fff9f2;
+}
+
+/* Layout nền: Sử dụng gradient ấm áp, mềm mại */
+.cozy-layout {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #fff9f2 0%, #ffeae0 100%);
+  padding: 60px 20px;
+}
+
+/* Card chính: Bo góc lớn, đổ bóng mềm mang tông màu cam/hồng nhạt */
+.cozy-card {
+  border-radius: 24px !important;
+  box-shadow: 0 12px 40px rgba(255, 138, 101, 0.15) !important;
+  border: 1px solid rgba(255, 138, 101, 0.1);
+  padding: 10px;
+}
+
+/* Khung bọc Icon để trông thân thiện hơn */
+.icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 88px;
+  height: 88px;
+  background: linear-gradient(135deg, #ffdab9 0%, #ffb088 100%);
+  border-radius: 50%;
+  margin-bottom: 16px;
+  box-shadow: 0 8px 20px rgba(255, 176, 136, 0.4);
+}
+
+/* Khung hiển thị kết quả: Giống một tờ giấy ghi chú ấm áp */
+.result-note {
+  background-color: #fff6f0 !important;
+  border-radius: 16px !important;
+  border: 2px dashed #ffcba4 !important;
+}
+
+/* Hiệu ứng nút xóa nhẹ nhàng hơn */
+.dynamic-delete-button {
+  color: #ff8a65 !important;
+  transition: all 0.2s;
+}
+
+.dynamic-delete-button:hover {
+  color: #e64a19 !important;
+  transform: scale(1.1);
+}
+
+pre {
+  white-space: pre-wrap;
+  word-break: break-word;
+}
